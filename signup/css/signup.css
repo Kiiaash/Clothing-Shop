@@ -1,0 +1,281 @@
+body{
+    margin: 0px;
+    background-color: #ebebeb;
+}
+@font-face {
+    font-family:"nsbold" ;
+    src: url(fonts/NotoSans-Bold.ttf);
+}
+@font-face {
+    font-family: "nsthin";
+    src: url(fonts/NotoSans-Thin.ttf);
+}
+@font-face {
+    font-family: "nsblack";
+    src: url(fonts/NotoSans-Black.ttf);
+}
+@font-face {
+    font-family: "nsmedium";
+    src: url(fonts/NotoSans-Medium.ttf);
+}
+@font-face {
+    font-family: "nsextrabold";
+    src: url(fonts/NotoSans-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "nsregular";
+    src: url(fonts/NotoSans-Regular.ttf);
+}
+@font-face {
+    font-family: "nssemibold";
+    src: url(fonts/NotoSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: "nslight";
+    src: url(fonts/NotoSans-Light.ttf);
+}
+.signupform{
+    width:822px;
+    height: 475px;
+    background-color: #242424;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}
+.signupform .title{
+    width: 822px;
+    height: 27px;
+    font-family: "nsblack";
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 22px;
+}
+.signupform .fname{
+    width: 186px;
+    height: 36px;
+    font-size: 20px;
+    font-family: "nsmedium";
+    letter-spacing: 3px;
+    color: #fff;
+    position: relative;
+    top: 0px;
+    left: 29px;
+}
+.signupform .fullname{
+    width: 293px;
+    height: 29px;
+    background-color: #fff;
+    border: hidden;
+    position: relative;
+    left: 30px;
+}
+.signupform .user{
+    width: 186px;
+    height: 36px;
+    font-size: 20px;
+    font-family: "nsmedium";
+    letter-spacing: 3px;
+    color: #fff;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+.signupform .username{
+    width: 293px;
+    height: 29px;
+    background-color: #fff;
+    border: hidden;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+.signupform .eml{
+    width: 186px;
+    height: 36px;
+    font-size: 20px;
+    font-family: "nsmedium";
+    letter-spacing: 3px;
+    color: #fff;
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+.signupform .email{
+    width: 293px;
+    height: 29px;
+    background-color: #fff;
+    border: hidden;
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+.signupform .pass{
+    width: 186px;
+    height: 36px;
+    font-size: 20px;
+    font-family: "nsmedium";
+    letter-spacing: 3px;
+    color: #fff;
+    position: relative;
+    top: 100px;
+    left: -270px;
+}
+.signupform .password{
+    width: 293px;
+    height: 29px;
+    background-color: #fff;
+    border: hidden;
+    position: relative;
+    top: 100px;
+    left: 30px;
+}
+.signupform .repass{
+    width: 186px;
+    height: 36px;
+    font-size: 20px;
+    font-family: "nsmedium";
+    letter-spacing: 3px;
+    color: #fff;
+    position: relative;
+    top: 130px;
+    left: 30px;
+}
+.signupform .repassword{
+    width: 293px;
+    height: 29px;
+    background-color: #fff;
+    border: hidden;
+    position: relative;
+    top: 130px;
+    left: 30px;
+}
+.signupform .phonum{
+    width: 186px;
+    height: 36px;
+    font-size: 20px;
+    font-family: "nsmedium";
+    letter-spacing: 3px;
+    color: #fff;
+    position: relative;
+    top: -210px;
+    left: 458px;
+}
+.signupform .phonenumber{
+    width: 273px;
+    height: 29px;
+    background-color: #fff;
+    border: hidden;
+    position: relative;
+    top: -210px;
+    left: 460px;
+}
+.signupform .addr{
+    width: 186px;
+    height: 36px;
+    font-size: 20px;
+    font-family: "nsmedium";
+    letter-spacing: 3px;
+    color: #fff;
+    position: relative;
+    top: -180px;
+    left: 460px;
+}
+.signupform .address{
+    width: 293px;
+    height: 120px;
+    background-color: #fff;
+    border: hidden;
+    position: relative;
+    top: -170px;
+    left: 460px;
+}
+.signupform .opt{
+    position: relative;
+    top: 15px;
+    left: -50px;
+    letter-spacing: -1;
+}
+.signupform .signup{
+    width: 180px;
+    height: 52px;
+    background-color: #fff;
+    font-family: "nsmedium";
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: -160px;
+    left: 460px;
+    transition-duration: 0.25s;
+}
+.signup:hover{
+    background-color: hsl(0, 0%, 71%);
+    transition-duration: 0.25s;
+}
+.signupform .trm{
+    width: 186px;
+    height: 36px;
+    font-size: 10px;
+    font-family: "nsmedium";
+    letter-spacing: 3px;
+    color: #fff;
+    position: relative;
+    top: -140px;
+    left: 500px;
+}
+.signupform .terms{
+    width:20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: hidden;
+    position: relative;
+    top: -160px;
+    left: 460px;
+}
+.signupform .nws{
+    width: 186px;
+    height: 36px;
+    font-size: 10px;
+    font-family: "nsmedium";
+    letter-spacing: 3px;
+    color: #fff;
+    position: relative;
+    top: -140px;
+    left: 500px;
+}
+.signupform .news{
+    width:20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: hidden;
+    position: relative;
+    top: -160px;
+    left: 460px;
+}
+.conformation{
+    width:150px;
+    height: 220px;
+    background-color: red;
+    text-align: center;
+    margin: 0 auto;
+}
+.goback{
+    width: 250px;
+    height: 25px;
+    font-family: "nsmedium";
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    position: relative;
+    top: 20px;
+    left: 300px;
+    padding-top: 5px;
+}
+.textdec{
+    text-decoration: none;
+}
