@@ -1,0 +1,151 @@
+body{
+    margin: 0px;
+    background-color: #ebebeb;
+}
+@font-face {
+    font-family:"nsbold" ;
+    src: url(fonts/NotoSans-Bold.ttf);
+}
+@font-face {
+    font-family: "nsthin";
+    src: url(fonts/NotoSans-Thin.ttf);
+}
+@font-face {
+    font-family: "nsblack";
+    src: url(fonts/NotoSans-Black.ttf);
+}
+@font-face {
+    font-family: "nsmedium";
+    src: url(fonts/NotoSans-Medium.ttf);
+}
+@font-face {
+    font-family: "nsextrabold";
+    src: url(fonts/NotoSans-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "nsregular";
+    src: url(fonts/NotoSans-Regular.ttf);
+}
+@font-face {
+    font-family: "nssemibold";
+    src: url(fonts/NotoSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: "nslight";
+    src: url(fonts/NotoSans-Light.ttf);
+}
+.loginform{
+    width:543px;
+    height: 500px;
+    background-color: #242424;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}
+.loginform .title{
+    width:543px;
+    height: 67px;
+    font-family: "nsblack";
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 44px;
+}
+.form{
+    
+}
+.form .user{
+    font-family: "nsmedium";
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #fff;
+    position:relative;
+    top: 73px;
+    left: 96px;
+}
+.form .userinp{
+    width: 340px;
+    height: 39px;
+    background-color: #fff;
+    border: hidden;
+    position: relative;
+    top: 80px;
+    left: 96px;
+    margin: 0 auto;
+}
+.form .pass{
+    font-family: "nsmedium";
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #fff;
+    position:relative;
+    top: 103px;
+    left: 96px;
+}
+.form .passinp{
+    width: 340px;
+    height: 39px;
+    background-color: #fff;
+    border: hidden;
+    position: relative;
+    top: 110px;
+    left: 96px;
+}
+.form .logginbutton{
+    width: 120px;
+    height: 52px;
+    background-color: #fff;
+    text-align: center;
+    font-family: "nsmedium";
+    font-size: 16px;
+    border: hidden;
+    position: relative;
+    top: 140px;
+    left: 200px;
+    transition-duration: 0.25s;
+}
+.logginbutton:hover{
+    background-color: hsl(0, 0%, 71%);
+    transition-duration: 0.25s;
+}
+.loginform .fyp{
+    width: 210px;
+    height: 29px;
+    
+    font-family: "nsmedium";
+    font-size: 14px;
+    color: hsla(0, 0%, 100%, 0.5);
+    position: relative;
+    top: 170px;
+    left: 46px;
+    float: left;
+}
+.loginform .notamem{
+    width: 210px;
+    height: 29px;
+    
+    font-family: "nsmedium";
+    font-size: 14px;
+    color: hsla(0, 0%, 100%, 0.5);
+    position: relative;
+    top: 195px;
+    left: -164px;
+    float: left;
+}
+.goback{
+    width:190px;
+    height: 20px;
+    background-color: #fff;
+    font-family: "nsmedium";
+    font-size: 12px;
+    position: relative;
+    top: 180px;
+    left: 20px;
+    color: #000;
+    text-align: center;
+}
+.textdec{
+    text-decoration: none;
+}
