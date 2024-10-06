@@ -1,1 +1,5 @@
 # Clothing-Shop
+
+For my first project, I chose to work with plain PHP without relying on any modern frameworks or common practices. The goal was to understand the core dynamics of web development and how things truly work at a fundamental level. By doing this, I was able to get familiar with the base concepts of creating a dynamic web page, such as handling server requests, managing form data, and rendering content on the fly.
+
+Working with plain PHP allowed me to experience how things operate under the hood, providing a solid foundation for future projects. It gave me a clear understanding of how to structure the back-end logic, manage user interactions, and control the flow of data. Without the abstraction layers of modern tools, I was able to grasp the essential concepts and "soul" of web development, which I believe will be invaluable as I move forward and begin incorporating more advanced techniques and frameworks.
